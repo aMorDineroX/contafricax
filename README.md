@@ -1,29 +1,32 @@
-# Premier démarrage ou après modifications Docker
+# ContAfricaX - Application de Comptabilité Africaine
+
+Application moderne de comptabilité conçue pour l'Afrique, construite avec React, TypeScript et Docker.
+
+## Technologies
+
+- Frontend: React, TypeScript, Vite
+- UI: Tailwind CSS, shadcn/ui
+- Base de données: PostgreSQL
+- Conteneurisation: Docker
+- Animations: Framer Motion
+- Graphiques: Recharts
+
+## Installation
+
+```bash
+# Cloner le projet
+git clone https://github.com/morcruz88/ContAfricaX.git
+cd ContAfricaX
+
+# Installer les dépendances
 docker-compose up --build
+```
 
-# Démarrages suivants
-docker-compose up
+## Accès
 
-# Pour arrêter l'application
-docker-compose down
-
-# Dans PowerShell, en tant qu'administrateur
-cd C:\Users\morcr\OneDrive\Bureau\MyDockerApps\ContAfricaX
-docker-compose up --build
-
-Vous pouvez accéder à :
-
-Application : http://localhost:5173
-Adminer : http://localhost:8080
-Système : PostgreSQL
-Serveur : db
-Utilisateur : admin
-Mot de passe : secretpassword
-Base de données : contafricax
-
-Une application React moderne avec TypeScript
-Un environnement Docker complet avec :
-Frontend React (port 5173)
-Base de données PostgreSQL (port 5432)
-Adminer pour gérer la DB (port 8080)
-Un système de backup automatisé
+- Application : http://localhost:5173
+- Adminer : http://localhost:8080
+  - Système : PostgreSQL
+  - Serveur : db
+  - Utilisateur : admin
+  - Base de données : contafricax# contafricax
