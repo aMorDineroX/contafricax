@@ -1,5 +1,8 @@
 # ContAfricaX - Application de Comptabilité Africaine
 
+[![CI](https://github.com/aMorDineroX/contafricax/actions/workflows/ci.yml/badge.svg)](https://github.com/aMorDineroX/contafricax/actions/workflows/ci.yml)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=aMorDineroX/contafricax)](https://dependabot.com)
+
 Application moderne de comptabilité conçue pour l'Afrique, construite avec React, TypeScript et Docker.
 
 ## Technologies
