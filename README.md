@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ContAfricaX - Application de Comptabilité Africaine
 
 Application moderne de comptabilité conçue pour l'Afrique, construite avec React, TypeScript et Docker.
@@ -30,3 +31,7 @@ docker-compose up --build
   - Serveur : db
   - Utilisateur : admin
   - Base de données : contafricax# contafricax
+=======
+# contafricax
+Application de comptabilité africaine
+>>>>>>> 2fa579e0f3cac509702658d4a4683b839aef369b
