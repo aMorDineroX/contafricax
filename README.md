@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ContAfricaX - Application de Comptabilité Africaine
 
 Application moderne de comptabilité conçue pour l'Afrique, construite avec React, TypeScript et Docker.
@@ -16,8 +15,8 @@ Application moderne de comptabilité conçue pour l'Afrique, construite avec Rea
 
 ```bash
 # Cloner le projet
-git clone https://github.com/morcruz88/ContAfricaX.git
-cd ContAfricaX
+git clone https://github.com/aMorDineroX/contafricax.git
+cd contafricax
 
 # Installer les dépendances
 docker-compose up --build
@@ -30,8 +29,14 @@ docker-compose up --build
   - Système : PostgreSQL
   - Serveur : db
   - Utilisateur : admin
-  - Base de données : contafricax# contafricax
-=======
-# contafricax
-Application de comptabilité africaine
->>>>>>> 2fa579e0f3cac509702658d4a4683b839aef369b
+  - Base de données : contafricax
+
+## Développement
+
+```bash
+# Démarrer en mode développement
+docker-compose up
+
+# Arrêter les conteneurs
+docker-compose down
+```
